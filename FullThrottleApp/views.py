@@ -9,7 +9,7 @@ from .models import Employee,ActivityPeriods
 # Create your views here.
 
 def index(request):
-    return HttpResponse("<h1><em>To get API details enter /getEmployeeDetails in the url.</em></h1>")
+    return HttpResponse("<h1><em>To get API details enter /getEmployee in the url.</em></h1>")
 
 def getEmployees(request):
     response_Dictionary = dict()
